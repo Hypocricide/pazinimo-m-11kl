@@ -1,4 +1,5 @@
-# from random import*
+#Burbulo metodas su pozymu
+# from random import* 
 # n=int(input("Kiek elementu turi masyvas a? n="))
 # a=[randint(0,5) for i in range(n)]
 # print('pradinis masyvas\n', a)
@@ -13,7 +14,7 @@
 #     rik_pozym +=1
 # print('surikiuotas masyvas\n',a)
 
-
+# # Masyvo elementų rikiavimas. "Akmens“ metodas
 # from random import *
 
 # n = int(input("Kiek elementų turi masyvas a? n = "))

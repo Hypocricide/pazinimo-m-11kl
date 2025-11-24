@@ -1,0 +1,31 @@
+# n = int(input('Kiek n nariu skaiciuoti suma nuo 1 iki n='))
+# def sum_to_n(n):
+#     total = 0
+#     for i in range(1, n +1):
+#         total += i
+#     return total
+# print(sum_to_n(n))
+# pirma uzd
+
+# zodis = str(input('parasyk zodi'))
+# raide = str(input('pasirink kokia raide surasti zodyje'))
+# def count_char(zodis, raide):
+#     count =0
+#     for ch in zodis:
+#         if ch==raide:
+#             count +=1
+#             return count
+# print(f"Raide '{raide}' rasta {count_char(zodis, raide)} karta(kartų).")
+#kzn neveikia 4 some reason nesvarbu kiek raidziu besikartoja visada grazina 1
+# antra uzd
+
+# def swap(arr, i, j):
+#     """Sukeicia vietomis masyvo arr elementus indeksuose i ir j."""
+#     arr[i], arr[j] = arr[j], arr[i]
+#3 uzd
+
+def insert_at(arr, index, value):
+    arr.append(0)  
+    for i in range(len(arr) - 1, index, -1):
+        arr[i] = arr[i - 1]  
+    arr[index] = value  
